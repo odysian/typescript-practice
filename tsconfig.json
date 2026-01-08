@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Basics */
+    "target": "ES2020",          /* Modern enough for all features, old enough to run anywhere */
+    "module": "commonjs",        /* Easiest for running 'node script.js' */
+    
+    /* File Management */
+    "rootDir": "./src",          /* Put your .ts files in a 'src' folder */
+    "outDir": "./dist",          /* Your .js files will appear here */
+    
+    /* Strictness */
+    "strict": true,              /* Enable core strict settings */
+    "skipLibCheck": true,        /* Don't check library files (speeds up compile) */
+    "forceConsistentCasingInFileNames": true,
+    
+    /* Interop */
+    "esModuleInterop": true      /* Allows easier importing of libraries */
+  },
+  "include": ["src/**/*"]
+}
